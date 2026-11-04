@@ -1,0 +1,114 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: transparent;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+    min-height: 100vh;
+    background-image:url('../admin/images/dashboardbg.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width: 100%;
+}
+body {
+    background: none; /* remove default white */
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background: rgba(85, 73, 189, 0.15);
+    backdrop-filter: blur(10px);
+    padding-top: 30px;
+    text-align: center;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+
+.sidebar img {
+    width: 160px;
+}
+
+.sidebar a {
+    display: block;
+    color: rgb(13, 37, 82);
+    padding: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: rgba(102, 151, 197, 0.2);
+}
+
+.active {
+    background: rgba(13, 177, 81, 0.25);
+    font-weight: bold;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    flex: 1;
+    padding: 30px;
+    background: transparent;
+}
+
+/*"hI ZSANDRA NI*/
+.top-bar h1 {
+    color: rgb(13, 37, 82);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*"hI ZSANDRA NI*/
+.top-bar p {
+    color: rgb(13, 37, 82);
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+/* DASHBOARD GRID */
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+/* BOXES */
+.box {
+    background: rgba(11, 13, 102, 0.15);
+    color: rgb(255, 253, 253);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+.box h2 {
+    font-size: px;
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+}
