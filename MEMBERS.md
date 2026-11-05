@@ -5,4 +5,4 @@
 | Zsandra Jullianne Gomez | Leader / Developer |
 | Member 2                | Developer          |
 | Member 3                | Developer          |
-| Member 4                | Tester             |
+| Kristine Cate A. Heras  | Tester             |
